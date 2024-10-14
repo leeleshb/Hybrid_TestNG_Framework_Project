@@ -103,5 +103,9 @@ public class LoginTest extends BaseTest{
 		Assert.assertEquals(forgottenPasswordPage.retrieveForgotPasswordHeadingText(), dataprop.getProperty("actualHeading"));
 	}
 	
-	
+	@Test(priority = 7)
+	public void verifyLoginIntoTheApplicationUsingKeyboardKeys() {
+		
+		//I will create this test case later
+	}
 }
