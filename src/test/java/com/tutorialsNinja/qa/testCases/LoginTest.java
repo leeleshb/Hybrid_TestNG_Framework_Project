@@ -109,4 +109,13 @@ public class LoginTest extends BaseTest{
 		//I will create this test case later
 		//I also modify one comment here
 	}
+	
+	@Test(priority = 8)
+	public void verifyEmailAddressAndPasswordTextFieldInTheLoginPageHaveThePlaceholderText() {
+		
+		LoginPage loginPage = new LoginPage(driver);
+		Assert.assertEquals(loginPage.getEmailAddressAttributePlaceholder(), dataprop.getProperty("loginEmailPlaceholder"));
+		Assert.assertEquals(loginPage.getPasswordAttributePlaceholder(), dataprop.getProperty("loginPasswordPlaceholder"));
+	}
+	
 }
