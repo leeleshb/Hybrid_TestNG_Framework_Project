@@ -6,7 +6,7 @@
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.tutorialsNinja.qa.testCases.RegisterTest"/>
+      <class name="com.tutorialsNinja.qa.testCases.LoginTest"/>
       <class name="com.tutorialsNinja.qa.base.BaseTest"/>
     </classes>
   </test> <!-- Test -->

@@ -1,25 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="11" total="12" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-15T11:32:55 IST" name="Default suite" finished-at="2024-10-15T11:33:08 IST" duration-ms="12444">
+  <suite started-at="2024-10-15T17:30:03 IST" name="Suite" finished-at="2024-10-15T17:32:54 IST" duration-ms="170823">
     <groups>
     </groups>
-    <test started-at="2024-10-15T11:32:55 IST" name="Default test" finished-at="2024-10-15T11:33:08 IST" duration-ms="12444">
-      <class name="com.tutorialsNinja.qa.testCases.RegisterTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsNinja.qa.testCases.RegisterTest@121314f7]" started-at="2024-10-15T11:32:55 IST" name="setUp" finished-at="2024-10-15T11:33:07 IST" duration-ms="11630" status="PASS">
+    <test started-at="2024-10-15T17:30:03 IST" name="Test" finished-at="2024-10-15T17:32:54 IST" duration-ms="170823">
+      <class name="com.tutorialsNinja.qa.testCases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:30:04 IST" name="setUp" finished-at="2024-10-15T17:30:26 IST" duration-ms="21555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAllFieldsIntheRegisterAccountPageHaveProperPlaceholders()[pri:12, instance:com.tutorialsNinja.qa.testCases.RegisterTest@121314f7]" started-at="2024-10-15T11:33:07 IST" name="verifyAllFieldsIntheRegisterAccountPageHaveProperPlaceholders" finished-at="2024-10-15T11:33:07 IST" duration-ms="376" status="PASS">
+        <test-method signature="verifyLoginIntoTheApplicationUsingValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:30:26 IST" name="verifyLoginIntoTheApplicationUsingValidCredentials" data-provider="supplyData" finished-at="2024-10-15T17:30:28 IST" duration-ms="2109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bokde.leelesh4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAllFieldsIntheRegisterAccountPageHaveProperPlaceholders -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.qa.testCases.RegisterTest@121314f7]" started-at="2024-10-15T11:33:08 IST" name="tearDown" finished-at="2024-10-15T11:33:08 IST" duration-ms="385" status="PASS">
+        </test-method> <!-- verifyLoginIntoTheApplicationUsingValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:30:28 IST" name="tearDown" finished-at="2024-10-15T17:30:28 IST" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.tutorialsNinja.qa.testCases.RegisterTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:30:28 IST" name="setUp" finished-at="2024-10-15T17:30:41 IST" duration-ms="12547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginIntoTheApplicationUsingValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:30:41 IST" name="verifyLoginIntoTheApplicationUsingValidCredentials" data-provider="supplyData" finished-at="2024-10-15T17:30:43 IST" duration-ms="1780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amotooricap1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginIntoTheApplicationUsingValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:30:43 IST" name="tearDown" finished-at="2024-10-15T17:30:43 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:30:43 IST" name="setUp" finished-at="2024-10-15T17:30:55 IST" duration-ms="12522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginIntoTheApplicationUsingValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:30:55 IST" name="verifyLoginIntoTheApplicationUsingValidCredentials" data-provider="supplyData" finished-at="2024-10-15T17:30:57 IST" duration-ms="1143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amotooricap3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginIntoTheApplicationUsingValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:30:57 IST" name="tearDown" finished-at="2024-10-15T17:30:57 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:30:57 IST" name="setUp" finished-at="2024-10-15T17:31:14 IST" duration-ms="17657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginIntoTheApplicationUsingValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:31:14 IST" name="verifyLoginIntoTheApplicationUsingValidCredentials" data-provider="supplyData" finished-at="2024-10-15T17:31:16 IST" duration-ms="1466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bokde.leelesh45@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginIntoTheApplicationUsingValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:31:16 IST" name="tearDown" finished-at="2024-10-15T17:31:16 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:31:16 IST" name="setUp" finished-at="2024-10-15T17:31:29 IST" duration-ms="12710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyloggingIntoTheApplicationUsingInvalidCredentials()[pri:2, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:31:29 IST" name="verifyloggingIntoTheApplicationUsingInvalidCredentials" finished-at="2024-10-15T17:31:30 IST" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloggingIntoTheApplicationUsingInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:31:30 IST" name="tearDown" finished-at="2024-10-15T17:31:30 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:31:30 IST" name="setUp" finished-at="2024-10-15T17:31:43 IST" duration-ms="12704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyloggingIntoTheApplicationUsingInvalidEmailAndValidPassword()[pri:3, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:31:43 IST" name="verifyloggingIntoTheApplicationUsingInvalidEmailAndValidPassword" finished-at="2024-10-15T17:31:44 IST" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloggingIntoTheApplicationUsingInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:31:44 IST" name="tearDown" finished-at="2024-10-15T17:31:44 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:31:44 IST" name="setUp" finished-at="2024-10-15T17:31:57 IST" duration-ms="12906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyloggingIntoTheApplicationUsingValidEmailAndInvalidPassword()[pri:4, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:31:57 IST" name="verifyloggingIntoTheApplicationUsingValidEmailAndInvalidPassword" finished-at="2024-10-15T17:31:58 IST" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloggingIntoTheApplicationUsingValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:31:58 IST" name="tearDown" finished-at="2024-10-15T17:31:58 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:31:58 IST" name="setUp" finished-at="2024-10-15T17:32:14 IST" duration-ms="15956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyloggingIntoTheApplicationWithoutProvidingAnyCredentials()[pri:5, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:32:14 IST" name="verifyloggingIntoTheApplicationWithoutProvidingAnyCredentials" finished-at="2024-10-15T17:32:14 IST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloggingIntoTheApplicationWithoutProvidingAnyCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:32:14 IST" name="tearDown" finished-at="2024-10-15T17:32:15 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:32:15 IST" name="setUp" finished-at="2024-10-15T17:32:29 IST" duration-ms="14226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyForgottenPasswordLinkIsAvailableInTheLoginPageAndIsWorking()[pri:6, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:32:29 IST" name="verifyForgottenPasswordLinkIsAvailableInTheLoginPageAndIsWorking" finished-at="2024-10-15T17:32:29 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgottenPasswordLinkIsAvailableInTheLoginPageAndIsWorking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:32:29 IST" name="tearDown" finished-at="2024-10-15T17:32:30 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:32:30 IST" name="setUp" finished-at="2024-10-15T17:32:40 IST" duration-ms="10007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginIntoTheApplicationUsingKeyboardKeys()[pri:7, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:32:40 IST" name="verifyLoginIntoTheApplicationUsingKeyboardKeys" finished-at="2024-10-15T17:32:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginIntoTheApplicationUsingKeyboardKeys -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:32:40 IST" name="tearDown" finished-at="2024-10-15T17:32:40 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:32:40 IST" name="setUp" finished-at="2024-10-15T17:32:54 IST" duration-ms="13895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmailAddressAndPasswordTextFieldInTheLoginPageHaveThePlaceholderText()[pri:8, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:32:54 IST" name="verifyEmailAddressAndPasswordTextFieldInTheLoginPageHaveThePlaceholderText" finished-at="2024-10-15T17:32:54 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailAddressAndPasswordTextFieldInTheLoginPageHaveThePlaceholderText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsNinja.qa.testCases.LoginTest@5677323c]" started-at="2024-10-15T17:32:54 IST" name="tearDown" finished-at="2024-10-15T17:32:54 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsNinja.qa.testCases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -6,16 +6,20 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="com.tutorialsNinja.qa.testCases.RegisterTest">
+      <class name="com.tutorialsNinja.qa.testCases.LoginTest">
         <methods>
+          <include name="verifyloggingIntoTheApplicationWithoutProvidingAnyCredentials"/>
+          <include name="verifyLoginIntoTheApplicationUsingValidCredentials"/>
+          <include name="verifyForgottenPasswordLinkIsAvailableInTheLoginPageAndIsWorking"/>
+          <include name="verifyloggingIntoTheApplicationUsingValidEmailAndInvalidPassword"/>
           <include name="setUp"/>
-          <include name="verifyAllFieldsIntheRegisterAccountPageHaveProperPlaceholders"/>
-          <include name="verifyRegisteringAnAccountByProvidingAnInvalidEmailAddressIntoEmailField"/>
+          <include name="verifyLoginIntoTheApplicationUsingKeyboardKeys"/>
           <include name="tearDown"/>
-          <include name="verifyRegisteringAnAccountByProvidingAnInvalidPhoneNumber"/>
-          <include name="verifyRegisteringAnAccountByUsingKeyboardKeys"/>
+          <include name="verifyloggingIntoTheApplicationUsingInvalidCredentials"/>
+          <include name="verifyEmailAddressAndPasswordTextFieldInTheLoginPageHaveThePlaceholderText"/>
+          <include name="verifyloggingIntoTheApplicationUsingInvalidEmailAndValidPassword"/>
         </methods>
-      </class> <!-- com.tutorialsNinja.qa.testCases.RegisterTest -->
+      </class> <!-- com.tutorialsNinja.qa.testCases.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

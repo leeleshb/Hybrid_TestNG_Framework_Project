@@ -18,7 +18,8 @@ import org.openqa.selenium.io.FileHandler;
 
 public class Utilities {
 
-	public static final int implicitWait = 10;
+	public static final int implicitWait = 30;
+	public static final int pageLoadTimeout = 10;
 	
 	public static String generateRandomEmail() {
 
